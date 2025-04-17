@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Desenvolvimento Web</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Programação Web</h1>
+  </header>
+  <main>
+    <section>
+      <div class="two-column-layout">
+        <div>
+          <h2>Transformando Ideias em Experiências Digitais</h2>
+          <p>No universo do desenvolvimento web, criatividade e inovação se unem para construir soluções que transformam a forma como interagimos. Cada linha de código é uma oportunidade para criar interfaces intuitivas e impactantes.</p>
+        </div>
+        <img src="img/code.jpg" alt="Monitor exibindo código-fonte">
+      </div>
+      <p>Dominar HTML, CSS e JavaScript permite a criação de experiências digitais dinâmicas, nas quais design e funcionalidade convergem para solucionar desafios reais e impulsionar a comunicação no ambiente online.</p>
+    </section>
+    <section>
+      <div class="two-column-layout">
+        <img src="img/code2.jpg" alt="Editor de código com estrutura de website">
+        <div>
+          <h2>Ferramentas e Tecnologias Modernas</h2>
+          <p>A evolução constante de bibliotecas e frameworks está revolucionando o desenvolvimento web. Tecnologias como React, Angular e Vue, aliadas às práticas de design responsivo, possibilitam a criação de aplicações interativas e adaptáveis a qualquer dispositivo.</p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h2>Projeto Interativo: Calculadora Digital</h2>
+      <p>Este exemplo demonstra a combinação de HTML, CSS e JavaScript para criar uma aplicação interativa. Experimente inserir valores, escolher uma operação e veja na prática como o desenvolvimento web pode mesclar estética e funcionalidade.</p>
+      <form>
+        <label for="n1">Primeiro valor</label>
+        <input type="text" inputmode="numeric" placeholder="Digite um número" id="n1" name="n1" autocomplete="off">
+        <label for="operations">Escolha a operação</label>
+        <select name="operations" id="operations">
+          <option value="+">+</option>
+          <option value="-">-</option>
+          <option value="*">*</option>
+          <option value="/">/</option>
+        </select>
+        <label for="n2">Segundo valor</label>
+        <input type="text" inputmode="numeric" id="n2" name="n2" placeholder="Digite um número" autocomplete="off">
+        <button type="submit">Calcular</button>
+      </form>
+      <p><em>Resultado do cálculo:</em> <strong class="result"></strong></p>
+    </section>
+  </main>
+  <footer>
+    <p>2025 Desenvolvimento Web</p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
